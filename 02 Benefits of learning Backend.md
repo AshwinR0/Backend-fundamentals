@@ -42,3 +42,5 @@ Understanding backend engineering from its foundational concepts offers several 
 *   In a rapidly changing tech landscape, adaptability is highly sought after by employers. 
 *   Engineers grounded in first principles are not confined to a specific stack; they can join any team, think critically, and start contributing value immediately.
 *   Ultimately, this approach elevates a person from a simple "framework-specific developer" to a true software engineer capable of building robust, scalable, and maintainable systems in any environment.
+
+![Alt text](./images/02%20Benefits%20of%20Learning%20Backend.png)

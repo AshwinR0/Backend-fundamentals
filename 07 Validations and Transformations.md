@@ -58,4 +58,4 @@ A common critical mistake is relying on frontend validation to protect the backe
 *   **Frontend Validation is for User Experience (UX):** Validating forms on a web page provides immediate, helpful visual feedback to the user before an API call is even made. It does not provide security.
 *   **Backend Validation is for Security & Data Integrity:** Backends must validate everything rigorously because a server can be accessed by multiple different clients. Attackers or developers can easily bypass a frontend web app and hit the API directly using tools like Postman or Insomnia. If the server relies on the frontend to filter bad data, it will break when exposed to direct API requests.
 
-![Alt text](./images/06%20Authentication%20and%20Authorization.png)
+![Alt text](./images/07%20Validations%20and%20Transformations.png)

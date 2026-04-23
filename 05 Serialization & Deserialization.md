@@ -43,3 +43,5 @@ Using a real-world API example (like a `POST /api/books` request), the full life
 3.  **Server Processes:** The backend server (e.g., Rust) receives the JSON, deserializes it into a native struct, performs its business logic (like saving to a Postgres database), and prepares a response.
 4.  **Server Responds:** The server serializes its response data (perhaps an array of book objects) back into a JSON string and sends it to the client.
 5.  **Client Renders:** The client receives the JSON response, deserializes it back into JavaScript objects, and uses that data to render the user interface.
+
+![Alt text](./images/05%20Serialization%20and%20Deserialization.png)

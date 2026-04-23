@@ -34,3 +34,5 @@ As APIs evolve, developers often need to change the structure of the data they r
 A catch-all route acts as a fallback mechanism placed at the very end of a server's routing logic. 
 *   If a client requests a URL that does not match any defined route (e.g., a typo or a non-existent `/v3/products`), the request falls through to the catch-all handler (often defined using a wildcard like `/*`). 
 *   Instead of the server returning a default, unhelpful null response, this handler intercepts the bad request and sends back a user-friendly "route not found" message.
+
+![Alt text](./images/04%20Routing%20in%20Backend.png)

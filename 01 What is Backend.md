@@ -29,3 +29,6 @@ Attempting to connect a frontend directly to a database or perform server-side l
 2.  **External API Limitations:** Because of strict CORS policies, frontends cannot freely communicate with external APIs, whereas backend servers can connect to and fetch data from any external server without these restrictions.
 3.  **Database Connection Management:** Backend runtimes utilize native drivers (like `pg` for Postgres) to handle raw socket connections, binary data, and persistent connection pools. This prevents the database from being overwhelmed by opening and closing connections for every request. Browsers are fundamentally unequipped to maintain persistent database connections, and allowing every client to connect directly would crash the database under the load.
 4.  **Computing Power Constraints:** Frontend applications run on the user's hardware, which could range from a high-end desktop to a low-end smartphone with limited RAM and a single-core processor. Heavy business logic would cause these weaker devices to lag or crash. A centralized backend server, however, can easily be scaled up with more CPU and memory to handle massive computational loads seamlessly.
+
+
+![Alt text](./images/01%20What%20is%20a%20Backend.png)

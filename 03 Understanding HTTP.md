@@ -82,3 +82,5 @@ Caching stores copies of responses in the browser to reduce bandwidth, load time
 
 *   **SSL and TLS:** Secure Sockets Layer (SSL) was the original encryption protocol to protect data (like passwords) from interception, but it is now outdated. Transport Layer Security (TLS) is the modern, more secure replacement that encrypts data in transit and uses certificates to authenticate servers.
 *   **HTTPS:** This is simply the HTTP protocol wrapped in TLS encryption to ensure secure, tamper-proof communications.
+
+![Alt text](./images/03%20Understanding%20HTTP.png)
